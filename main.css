@@ -1,0 +1,26 @@
+h1 {
+	border: 1px solid;
+	padding: 10px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	background-color: pink;
+}
+#threeColomn {
+	width: 100%; /* 中央画面全体の幅を指定*/
+	overflow:hidden;
+	}
+#leftContents{
+	width: 49vw;
+	float: left;
+	overflow: hidden;
+}
+#mainContents {
+	width: 49vw; /* 中央部分の幅を指定*/
+	float:left;
+	overflow:hidden;
+	}
+#rightContents {
+	width: 49vw; /* 右メニューの幅を指定 */
+	float:right;
+	overflow:hidden;
+}
